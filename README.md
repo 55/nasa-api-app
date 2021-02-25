@@ -5,7 +5,7 @@ It finds an asteroid that passed the closest to Earth between 19th December 2015
 
 ### Preview
 
-![Application preview](https://i.imgur.com/G36PWHt.png)
+![Application preview](https://i.imgur.com/eoB4c1O.png)
 
 ### Run this application locally
 1. Install [Meteor](https://www.meteor.com/developers/install)
