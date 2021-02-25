@@ -1,10 +1,13 @@
+// Imports
 import { Meteor } from "meteor/meteor";
 import { HTTP } from "meteor/jkuester:http";
+
+// Get API key from settings.json
+apiKey = Meteor.settings.apiKey;
 
 Meteor.methods({
   getNasaNeoFeed() {
     // Construct the API URL
-    const apiKey = "4Wk4CFkwIo48KcpEPx7BPDbmdgIujEH8gscJAQYh";
     const apiUrl =
       "https://api.nasa.gov/neo/rest/v1/feed?start_date=2015-12-19&end_date=2015-12-26&api_key=" +
       apiKey;
