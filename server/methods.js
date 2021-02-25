@@ -6,7 +6,7 @@ Meteor.methods({
     // Construct the API URL
     const apiKey = "4Wk4CFkwIo48KcpEPx7BPDbmdgIujEH8gscJAQYh";
     const apiUrl =
-      "https://api.nasa.gov/neo/rest/v1/feed?start_date=2015-09-07&end_date=2015-09-08&api_key=" +
+      "https://api.nasa.gov/neo/rest/v1/feed?start_date=2015-12-19&end_date=2015-12-26&api_key=" +
       apiKey;
 
     // Query the API
